@@ -18,5 +18,8 @@ int main(){
     total = preco * quantidade;
 
     printf("Produto: %s\n",produto);
-    
+    printf("Preço unitário: %.2f\n",preco);
+    printf("Quantidade : %d\n",quantidade);
+    printf("Total da compra: %.2f\n",total);
+    return 0;
 }
